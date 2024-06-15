@@ -1,0 +1,59 @@
+.cards-list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #d8c1af;
+    margin: 25px;
+    border-radius: 0px 25px 25px 0px;
+    padding: 40px;
+}
+
+.cards .cards-image{
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 8px grey,-2px -2px 8px grey;
+}
+
+.cards .cards-details{
+    width: 400px;
+    height: 200px;
+    text-align: start;
+    padding-left: 75px;
+}
+
+.cards .cards-details span{
+    font-size: 18px;
+}
+
+.cards .cards-details h1{
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.cards .cards-details p{
+    font-size: 20px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cards .cards-details p .bi-geo-alt{
+    font-size: 25px;
+    color: rgb(9, 8, 59);
+}

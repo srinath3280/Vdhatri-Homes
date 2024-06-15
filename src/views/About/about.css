@@ -1,0 +1,134 @@
+.about{
+    width: 100%;
+    margin-top: 100px;
+    min-height: 65vh;
+    background-color: black;
+    background-image: url('/public/images/headerpattern.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutpagecontent{
+    text-align: start;
+    padding: 100px 75px;
+}
+.aboutpagecontent h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: black;
+}
+.aboutpagecontent p{
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.aboutpagecontainer{
+    width: 100%;
+    height: auto;
+}
+.aboutpagecontainer-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.aboutpagecontainer-heading-line1 {
+    width: 150px;
+    border: 1px solid black;
+}
+.aboutpagecontainer-heading-line2 {
+    width: 150px;
+    border: 1px solid black;
+}
+.aboutpagecontainer-heading-text {
+    font-size: 40px;
+    color: black;
+    margin: 25px;
+}
+
+.aboutpagecontainer-content{
+    width: 100%;
+    height: auto;
+    padding: 0px 250px;
+}
+.aboutpagecontainer-content-para{
+    font-size: 16px;
+    color: black;
+    margin: 25px;
+}
+
+.aboutpagecontainer-content-info1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+}
+.aboutpagecontainer-content-info1-block1{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.aboutpagecontainer-content-info1-block1 img{
+    width: 60%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(117, 116, 116);
+}
+.aboutpagecontainer-content-info1-block1 p{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin: 5px;
+}
+.aboutpagecontainer-content-info1-block2{
+    width: 60%;
+    height: auto;
+}
+.aboutpagecontainer-content-info1-block2 p{
+    font-size: 16px;
+    color: black;
+    text-align: justify;
+}
+
+.aboutpagecontainer-content-info2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+}
+.aboutpagecontainer-content-info2-block1{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.aboutpagecontainer-content-info2-block1 img{
+    width: 60%;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(117, 116, 116);
+}
+.aboutpagecontainer-content-info2-block1 p{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin: 5px;
+}
+.aboutpagecontainer-content-info2-block2{
+    width: 60%;
+    height: auto;
+}
+.aboutpagecontainer-content-info2-block2 p{
+    font-size: 16px;
+    color: black;
+    text-align: justify;
+}

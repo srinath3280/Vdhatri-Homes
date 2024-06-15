@@ -1,0 +1,93 @@
+.project {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.projectheading {
+    width: 100%;
+    height: auto;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectheading .projectheading-heading {
+    font-size: 50px;
+    color: black;
+    margin: 0px 20px;
+}
+
+.projectheading-heading-line1 {
+    width: 150px;
+    border: 1px solid black;
+}
+
+.projectheading-heading-line2 {
+    width: 150px;
+    border: 1px solid black;
+}
+
+.aboutpagecontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutpagestatus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 25px 0px;
+}
+
+.aboutpagestatus div h1 {
+    font-size: 40px;
+    color: rgb(156, 106, 39);
+}
+
+.aboutpagestatus div p {
+    font-size: 16px;
+    color: black;
+}
+
+.aboutpagecontainer hr {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectcontent-upcoming {
+    padding: 25px 50px;
+}
+
+.projectcontent-ongoing {
+    padding: 25px 50px;
+}
+
+.projectcontent-completed {
+    padding: 25px 50px;
+}
+
+.projectcontent-upcoming hr {
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectcontent-ongoing hr {
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectcontent-completed hr {
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

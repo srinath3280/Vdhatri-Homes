@@ -4,10 +4,48 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import "./index.css";
+import Home from './views/Home/home.js';
+import ContactUs from './views/contact/contact.js';
+import AboutUs from './views/About/about.js';
+import Project from './views/Projects/project.js';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App></App>,
+    children: [
+      {
+        path: '/',
+        element: <Home></Home>
+      },
+      {
+        path: '/aboutus',
+        element:<AboutUs></AboutUs>
+      },
+      {
+        path: '/contactus',
+        element: <ContactUs></ContactUs>
+      },
+      {
+        path: '/projects',
+        element: <Project></Project>
+      }
+    ]
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
